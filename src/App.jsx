@@ -12,7 +12,6 @@ const App = () => {
     try {
       const newColors = new Values(color).all(10)
       setColors(newColors)
-      toast.success("successfully added color")
     } catch (error) {
       toast.error(error.message)
     }
