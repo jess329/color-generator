@@ -31,19 +31,17 @@ To get a local copy up and running, follow these steps:
    git clone https://github.com/your-username/color-generator.git
 Navigate to the project directory:
 
-shell
-Copy code
-cd color-generator
+    ```shell
+    cd color-generator
+
 Install the dependencies:
 
-shell
-Copy code
-npm install
+    ```shell
+    npm install
 Start the development server:
 
-shell
-Copy code
-npm start
+    ```shell
+    npm start
 The color generator will be running locally at http://localhost:3000.
 
 
