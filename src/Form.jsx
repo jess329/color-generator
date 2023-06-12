@@ -7,9 +7,7 @@ function Form(props) {
     const handleSubmit = (e) => {
         e.preventDefault()
         setColor(document.getElementById('input2').value)
-        const colorsArr = new Values(color).all(10)
-        console.log(colorsArr)
-        props.setColors(colorsArr)
+        props.addColor(color)
     }
 
   return (
